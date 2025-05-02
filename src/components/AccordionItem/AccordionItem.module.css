@@ -1,0 +1,47 @@
+.accordion {
+  width: 100%;
+  border-radius: var(--radius-medium);
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--spacing-medium);
+  background-color: var(--color-primary);
+  border-top-left-radius: var(--radius-small);
+  border-top-right-radius: var(--radius-small);
+}
+.header:hover {
+  background-color: var(--color-primary-hover);
+  cursor: pointer;
+}
+.toggleIcon {
+  font-size: var(--font-size-medium);
+  font-weight: bold;
+}
+
+.description {
+  width: 100%;
+  padding: var(--spacing-medium);
+  background-color: var(--color-text);
+  border-bottom-left-radius: var(--radius-small);
+  border-bottom-right-radius: var(--radius-small);
+}
+
+.descriptionWrapper {
+  background-color: var(--color-text);
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  padding: 0;
+}
+
+.descriptionWrapper.open {
+  max-height: 500px;
+  overflow: scroll;
+}
+
+.borderRadiusBottom {
+  border-bottom-left-radius: var(--radius-small);
+  border-bottom-right-radius: var(--radius-small);
+}

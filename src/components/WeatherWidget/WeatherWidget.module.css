@@ -1,0 +1,95 @@
+.weatherWidgetContainer {
+  position: relative;
+  color: var(--color-text);
+  width: 50%;
+  height: 70%;
+  min-height: 560px;
+  min-height: 400px;
+
+  display: flex;
+  flex-direction: column;
+  border-radius: var(--radius-medium);
+  padding: var(--spacing-medium);
+  box-shadow: 0px 0px 2px 2px lightslategray;
+  background: #000046; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #1cb5e0,
+    #000046
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #1cb5e0,
+    #000046
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.weatherWidgetContainer .searchContainer {
+  display: flex;
+  padding: var(--spacing-medium) 0;
+}
+
+.searchContainer .weatherInput {
+  height: 40px;
+  flex-grow: 1;
+}
+
+.searchContainer .searchButton {
+  height: 40px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 var(--spacing-small);
+  background-color: var(--color-primary);
+}
+
+/* ---------------- */
+.weatherBasicInfo {
+  padding: var(--spacing-large) 0;
+  display: flex;
+}
+
+.weatherBasicInfo div {
+  flex: 1;
+}
+
+.locationDetails,
+.tempDetails {
+  /* display: flex;
+  flex-direction: column; */
+  text-align: center;
+}
+
+.currentWeatherIcon,
+.locationIcon {
+  height: 60px;
+  max-height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cityName,
+.temperature {
+  font-size: var(--font-size-x-large);
+}
+
+.countryName,
+.currentCondition {
+  font-weight: bold;
+}
+
+/* -------------------- */
+
+.forecastHeading {
+  padding: var(--spacing-medium) 0;
+}
+.forecastContainer {
+  width: 100%;
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-around;
+  align-items: center;
+  padding: var(--spacing-medium) 0;
+}

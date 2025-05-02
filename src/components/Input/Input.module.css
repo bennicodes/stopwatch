@@ -1,0 +1,14 @@
+.input {
+  min-width: 200px;
+  height: 32px;
+  padding: 0 var(--spacing-small);
+  border-radius: border-radius-small;
+  border-color: var(--color-border);
+}
+.errorText {
+  color: var(--color-error);
+}
+.label {
+  color: var(--color-text);
+  font-weight: bold;
+}

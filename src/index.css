@@ -1,0 +1,59 @@
+/* Reset -------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+button{
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* Variables ----------------- */
+:root {
+  /* Colors */
+  --color-background: #121212;
+  --color-surface: #1e1e1e;
+  --color-card: #2a2a2a;
+  --color-border: #333;
+  --color-primary: #4dabf7;
+  --color-primary-hover: #339af0;
+  --color-secondary: #adb5bd;
+  --color-text: #f1f3f5;
+  --color-text-muted: #ced4da;
+  --color-error: #fa5252;
+  --color-success: #51cf66;
+  --color-warning: #fcc419;
+  --color-border: gray;
+
+  /* Font size */
+  --font-size-base: 1rem;
+  --font-size-medium: 1.5rem;
+  --font-size-large: 2rem;
+  --font-size-x-large: 3rem;
+
+
+  /* Spacing */
+  --spacing-xs: 0.25rem;
+  --spacing-small: 0.5rem;
+  --spacing-medium: 1rem;
+  --spacing-large: 2rem;
+  --spacing-xl: 4rem;
+
+  /* Border Radius */
+  --radius-small: 4px;
+  --radius-medium: 8px;
+  --radius-large: 1rem;
+
+  /* Shadows */
+  --shadow-small: 0 1px 2px rgba(0, 0, 0, 0.2);
+  --shadow-medium: 0 4px 8px rgba(0, 0, 0, 0.3);
+  --shadow-large: 0 8px 16px rgba(0, 0, 0, 0.4);
+
+  /* Button */
+  --button-font-size: 0.875rem;
+  --button-radius: 6px;
+}
