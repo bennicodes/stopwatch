@@ -1,3 +1,8 @@
+@font-face {
+  font-family: RobotoMono;
+  src: url("../Fonts/RobotoMono-VariableFont_wght.ttf");
+}
+
 /* Reset -------------------- */
 * {
   margin: 0;
@@ -6,7 +11,7 @@
   list-style: none;
 }
 
-button{
+button {
   cursor: pointer;
   font-family: inherit;
   font-size: inherit;
@@ -34,7 +39,6 @@ button{
   --font-size-medium: 1.5rem;
   --font-size-large: 2rem;
   --font-size-x-large: 3rem;
-
 
   /* Spacing */
   --spacing-xs: 0.25rem;

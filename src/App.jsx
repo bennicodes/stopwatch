@@ -1,10 +1,10 @@
 import styles from "./App.module.css";
-import WeatherWidget from "./components/WeatherWidget/WeatherWidget";
+import Stopwatch from "./components/StopWatch/Stopwatch";
 
 const App = () => {
   return (
     <div className={styles.rootContainer}>
-      <WeatherWidget />
+      <Stopwatch />
     </div>
   );
 };
